@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "for-each": "^0.3.3",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.54.4"
+    "sass": "^1.54.4",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "eslint": "8.22.0",
