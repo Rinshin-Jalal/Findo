@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import nightmode from "../public/images/nightmode.png";
 import styles from "../styles/Navbar.module.scss";
 
 const Navbar = () => {
@@ -21,6 +21,7 @@ const Navbar = () => {
             <a href="/" className={styles.link}>
               Services
             </a>
+            <img src={nightmode} alt="Switch to Dark mode" className={styles.nightmodeimg} />
           </div>
         </div>
       </nav>
