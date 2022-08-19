@@ -23,9 +23,11 @@ const featuresData = [
 const FeaturesSection = () => {
   return (
     <div className={styles.container}>
-        {featuresData.map((feature, id) => (
-            <FeatureCard key={id} feature={feature} />
-        ))}
+        <div className={styles.cardcontainer}>
+            {featuresData.map((feature, id) => (
+                <FeatureCard key={id} feature={feature} />
+            ))}
+        </div>
     </div>
   )
 }

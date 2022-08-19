@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    padding-top: 5rem;
+
+    .title {
+        font-family: 'Poppins';
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .card {
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins';
+        font-weight: 500;
+        padding: 15px;
+        width: 90%;
+        cursor: pointer;
+        transition: 0.5s ease;
+        &:hover {
+            color: #5da7c9;
+            transform: scale(1.1);
+        }
+        // background-color: aqua;
+
+        h1 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+
+    .cardsContainer {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 3rem;
+        width: 85%;
+    }
+
+    .img {
+        transition: 0.5s ease;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
