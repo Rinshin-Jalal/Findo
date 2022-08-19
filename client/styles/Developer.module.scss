@@ -1,0 +1,107 @@
+.container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+
+    .body {
+        // not hereeeeee???  thenp where? in the left div  oin wlyas planning to make a whole reactangle and then place the img in the right div I think it is not a goodpractice bro then?
+
+        width: 90%;
+        margin: auto;
+        height: 80vh;
+        border-radius: 30px;
+        display: flex;
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+        .left {
+            flex: 1.1;
+            background-color: #9DDBF7; 
+            border-radius: 30px 0px 0px 30px;// ok
+            padding: 30px;
+
+            .question {
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: #1F1F1F;
+                font-family: 'Poppins';
+            }
+
+            h1 {
+                font-size: 4rem;
+                margin: 10px;
+                font-weight: bold;
+                color: #232323;
+                font-family: 'Poppins';
+            }
+
+            h4 {
+                font-size: 1.7rem;
+                margin: 20px 10px;
+                font-weight: 600;
+                color: #1F1F1F;
+                font-family: 'Poppins';
+            }
+
+            .profilequestion {
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin: 40px 10px;
+                color: #494949;
+                font-family: 'Poppins';
+            }
+
+            .make_profile {
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: #1F1F1F;
+                background-color: #fff;
+                padding: 15px 60px;
+                border-radius: 50px;
+                font-family: 'Poppins';
+                cursor: pointer;
+                transition: 0.4s ease-in-out;
+
+                &:hover {
+                    background-color: #1F1F1F;
+                    color: #fff;
+                }
+            }
+        }
+
+        .right {
+            flex: 1;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        .body {
+            flex-direction: column;
+            height: 100vh;
+
+            .left {
+                flex: 1;
+                border-radius: 30px 30px 0px 0px;
+                padding: 50px;
+                h1 {
+                    font-size: 3rem;
+                }
+            }
+
+            .right {
+                flex: 1;
+                border-radius: 0px 0px 30px 30px;
+            }
+        }
+    }
+}

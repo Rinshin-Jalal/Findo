@@ -1,0 +1,45 @@
+.container {
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #000;
+    
+    .left {
+       flex: 1; 
+       padding: 20px;
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            img {
+                width: 60px;
+                height: 60px;
+            }
+            
+            h1{
+                font-size: 2rem;
+                color: #fff;
+            }
+        }
+    }
+
+    .right{
+        flex:1;
+        
+        p{
+            font-size: 1rem;
+            color: #2C99D6;
+            font-weight: 600;
+
+            span{
+                color:rgb(239, 239, 239);
+            }
+        }
+    }
+}
