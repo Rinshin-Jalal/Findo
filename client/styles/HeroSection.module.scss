@@ -65,6 +65,28 @@
   box-shadow: 30px 10px #000000;
 }
 
+@media screen and (max-width: 900px) {
+  .heroMain {
+    width: 80%;
+    margin: 4rem auto;
+  }
+  .heroMain p {
+    font-size: 25px;
+    width: 96%;
+    margin-top: 2rem;
+  }
+  .heroMain h1 {
+    font-size: 5rem;
+  }
+  .heroMain h1 span {
+    font-size: 6rem;
+  }
+  .heroMain .hireBtn {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

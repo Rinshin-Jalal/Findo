@@ -21,7 +21,7 @@ const Navbar = () => {
             <a href="/" className={styles.link}>
               Services
             </a>
-            <img src={nightmode} alt="Switch to Dark mode" className={styles.nightmodeimg} />
+            <img src="/images/nightmode.png" alt="Switch to Dark mode" className={styles.nightmodeimg} />
           </div>
         </div>
       </nav>
